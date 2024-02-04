@@ -1,0 +1,152 @@
+body{
+    
+    background-size: cover;
+    background-position: center;
+    font-family: cursive;
+    background-image: linear-gradient(17deg, rgba(41, 41, 41, 0.02) 0%, rgba(41, 41, 41, 0.02) 48%,rgba(10, 10, 10, 0.02) 48%, rgba(10, 10, 10, 0.02) 59%,rgba(164, 164, 164, 0.02) 59%, rgba(164, 164, 164, 0.02) 73%,rgba(79, 79, 79, 0.02) 73%, rgba(79, 79, 79, 0.02) 93%,rgba(42, 42, 42, 0.02) 93%, rgba(42, 42, 42, 0.02) 100%),linear-gradient(42deg, rgba(124, 124, 124, 0.02) 0%, rgba(124, 124, 124, 0.02) 15%,rgba(116, 116, 116, 0.02) 15%, rgba(116, 116, 116, 0.02) 23%,rgba(41, 41, 41, 0.02) 23%, rgba(41, 41, 41, 0.02) 44%,rgba(196, 196, 196, 0.02) 44%, rgba(196, 196, 196, 0.02) 54%,rgba(145, 145, 145, 0.02) 54%, rgba(145, 145, 145, 0.02) 100%),linear-gradient(151deg, rgba(85, 85, 85, 0.02) 0%, rgba(85, 85, 85, 0.02) 12%,rgba(72, 72, 72, 0.02) 12%, rgba(72, 72, 72, 0.02) 28%,rgba(156, 156, 156, 0.02) 28%, rgba(156, 156, 156, 0.02) 33%,rgba(230, 230, 230, 0.02) 33%, rgba(230, 230, 230, 0.02) 50%,rgba(13, 13, 13, 0.02) 50%, rgba(13, 13, 13, 0.02) 100%),linear-gradient(76deg, rgba(25, 25, 25, 0.02) 0%, rgba(25, 25, 25, 0.02) 9%,rgba(183, 183, 183, 0.02) 9%, rgba(183, 183, 183, 0.02) 32%,rgba(19, 19, 19, 0.02) 32%, rgba(19, 19, 19, 0.02) 86%,rgba(129, 129, 129, 0.02) 86%, rgba(129, 129, 129, 0.02) 88%,rgba(174, 174, 174, 0.02) 88%, rgba(174, 174, 174, 0.02) 100%),linear-gradient(90deg, rgb(41, 41, 41),rgb(8, 8, 8));
+}
+.cont{
+    background-color: #000;                /*login box*/
+    color: #03071e;
+    opacity: .8;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+}
+.title{
+      color: #f80505;
+      margin: 25px;
+      font-family:Georgia, 'Times New Roman', Times, serif
+}
+.h2{
+    color: #f80505;
+    margin-top: 30px;
+    margin-left:170px;
+    margin-bottom: 40px;
+  
+}
+.form-1{
+    width: 23em;                              /*label 1*/
+    padding-bottom:40px;
+    padding-left: 50px;
+}
+#form-2{                                     /*label 2*/
+    width:23em;
+    padding-bottom:35px;
+    padding-left: 50px;
+    
+}
+#label-3{                                      /*login btn*/
+    width: 20em;
+    height:3em;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.form-3{
+    margin-left:8em;
+    margin-bottom:5em;
+    text-decoration: underline;
+}
+p{
+    color:#f8edeb;
+    margin-top: 1em;
+    margin-left:8em;
+}
+#mdlsdf{
+    margin-top: 2em;
+    margin-left:4em;
+    margin-bottom:5em;  
+}
+footer{
+    background-color: #000;                /*login box*/
+    color: #f8edeb;
+    opacity:.8;
+    margin: 0;
+    padding: 0;
+    height:300px;
+}
+.rows
+{
+    margin:10%;
+    padding:40px;
+    display:flex ;
+}
+#social a{
+    padding:20px;
+    font-size: large;
+}
+h4{
+    color:#f10707;
+}
+ul{
+    list-style: none;
+}
+
+ul li{
+    margin-bottom: 10px;
+}
+li a{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration:underline;
+}
+@media screen and (min-width:700px){
+    .cont{
+        height:550px; 
+    }
+}
+@media screen and (min-width:1000px){
+    body{
+        align-items:cover;
+    }
+ .cont{
+    width:420px;
+    margin-left:35%;
+    height:580px;
+    display: flex;
+ } 
+ table{
+    margin-top:50px;
+    margin-left:8em;
+ }  
+ td{
+    padding:10px;
+    padding-right:8em;
+ }
+}
+@media screen and (max-width:400px){
+    .cont{
+        display: flex;
+        width:100px;
+      
+  }
+}
+@media screen and (max-width:1200px){
+    .cont{
+        display: flex;
+        width:420px;
+        margin:auto;
+
+  }
+}
+@media screen and (min-width:1500px){
+    .cont{
+        display: flex;
+        width:420px;
+        margin-left:35%;
+    }
+}
+@media screen and (min-width:2000px){
+    .cont{
+        display: flex;
+        width:420px;
+        margin-left:45%;
+    }
+}

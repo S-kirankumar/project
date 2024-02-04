@@ -1,0 +1,105 @@
+body{
+    
+    background-size: cover;
+    background-position: center;
+    font-family: cursive;
+    font-size: large;
+    background-image: linear-gradient(17deg, rgba(41, 41, 41, 0.02) 0%, rgba(41, 41, 41, 0.02) 48%,rgba(10, 10, 10, 0.02) 48%, rgba(10, 10, 10, 0.02) 59%,rgba(164, 164, 164, 0.02) 59%, rgba(164, 164, 164, 0.02) 73%,rgba(79, 79, 79, 0.02) 73%, rgba(79, 79, 79, 0.02) 93%,rgba(42, 42, 42, 0.02) 93%, rgba(42, 42, 42, 0.02) 100%),linear-gradient(42deg, rgba(124, 124, 124, 0.02) 0%, rgba(124, 124, 124, 0.02) 15%,rgba(116, 116, 116, 0.02) 15%, rgba(116, 116, 116, 0.02) 23%,rgba(41, 41, 41, 0.02) 23%, rgba(41, 41, 41, 0.02) 44%,rgba(196, 196, 196, 0.02) 44%, rgba(196, 196, 196, 0.02) 54%,rgba(145, 145, 145, 0.02) 54%, rgba(145, 145, 145, 0.02) 100%),linear-gradient(151deg, rgba(85, 85, 85, 0.02) 0%, rgba(85, 85, 85, 0.02) 12%,rgba(72, 72, 72, 0.02) 12%, rgba(72, 72, 72, 0.02) 28%,rgba(156, 156, 156, 0.02) 28%, rgba(156, 156, 156, 0.02) 33%,rgba(230, 230, 230, 0.02) 33%, rgba(230, 230, 230, 0.02) 50%,rgba(13, 13, 13, 0.02) 50%, rgba(13, 13, 13, 0.02) 100%),linear-gradient(76deg, rgba(25, 25, 25, 0.02) 0%, rgba(25, 25, 25, 0.02) 9%,rgba(183, 183, 183, 0.02) 9%, rgba(183, 183, 183, 0.02) 32%,rgba(19, 19, 19, 0.02) 32%, rgba(19, 19, 19, 0.02) 86%,rgba(129, 129, 129, 0.02) 86%, rgba(129, 129, 129, 0.02) 88%,rgba(174, 174, 174, 0.02) 88%, rgba(174, 174, 174, 0.02) 100%),linear-gradient(90deg, rgb(41, 41, 41),rgb(8, 8, 8));
+}
+
+#container-1{
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    margin: 1% 40%;
+    padding:10px;
+}
+#container-2{
+
+    width: 500px;
+    margin-left:500px;
+    margin-top: 50px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin-top: 20px;
+}
+#btn{
+    margin-left:20%;
+}
+
+th{
+    /* padding:0px; */
+    border: solid;
+    background-color: yellow;
+    border-collapse: collapse;
+    height:40px;
+    width:100px;
+    padding: 10px;
+
+}
+td{
+    /* padding:50px ; */
+    border: solid;
+    border-top: none;
+    background-color:green;
+    padding-right: 0%;
+    height:40px;
+    width:100px;
+    
+}
+button{
+    width: 10em;
+    height:3em;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.inputbox{
+    width: 20em;
+    height:2em ;
+}
+label{
+    color: green;
+}
+footer{
+    background-color: #000;                /*login box*/
+    color: #f8edeb;
+    opacity:.8;
+    margin: 0;
+    margin-top:50%;
+    padding: 0;
+    height:300px;
+    bottom: 0%;
+}
+#social a{
+    text-decoration: none;
+
+}
+.rows
+{
+    margin:10%;
+    padding:40px;
+    display:flex ;
+}
+
+h4{
+    color:#f10707;
+}
+ul{
+    list-style: none;
+}
+
+ul li{
+    margin-bottom: 10px;
+}
+li a{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration:underline;
+}

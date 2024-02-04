@@ -1,0 +1,133 @@
+
+body{
+    background-image:url("https://wallpaperaccess.com/full/2222747.jpg");
+    background-size: cover;
+    color:#ecece0;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+
+}   
+.pricing{
+    border: 5px solid #d0c900 ;
+    border-radius: 30px;
+    padding: 20px 20px;
+    width: 90%;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content:space-evenly;
+    font-family: sans-serif;
+}
+.pricing-update{
+    border-bottom: 1px solid #d00000;
+}
+.pricing-update:last-child{
+    border-bottom:none;
+}
+img{
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+.pricing-header{
+    border-top: 1px solid #d00000;
+    border-bottom: 1px solid  #d00000;
+    padding: 15px;
+}
+.pricing-feature-2{
+    color: rgba(255, 255, 0, 0.553);
+}
+.pricing-button{
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid #d00000;
+    color: rgb(246, 18, 18);
+    padding: 15px 30px;
+    margin-bottom: 20px;
+}
+.pricing-button:hover{
+    background-color: #d00000;
+    color: rgb(215, 216, 208);
+}
+.pricing-button-2{
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid #d00000;
+     background-color:#d00000;
+     color: white;
+    padding: 15px 30px;
+    margin: 20px;
+}
+.pricing-button-2:hover{
+    background-color: #600808;
+    color: rgb(220, 219, 212); 
+}
+.pricing-feature-items{
+    line-height: 2.5;
+    color: #d0c900;
+ }
+ footer{
+    background-color: #000;                /*login box*/
+    color: #f8edeb;
+    opacity:.8;
+    margin: 0;
+    margin-top:50%;
+    padding: 0;
+    height:300px;
+    bottom: 0%;
+}
+#social a{
+    text-decoration: none;
+
+}
+.rows
+{
+    margin:10%;
+    padding:40px;
+    display:flex ;
+}
+
+h4{
+    color:#f10707;
+}
+ul{
+    list-style: none;
+}
+
+ul li{
+    margin-bottom: 10px;
+}
+li a{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration:underline;
+}
+ @media(min-width:900px){
+    .pricing{
+        flex-direction:row;
+        font-size: 12px;
+        margin:50px;
+    }
+    .logo{
+       
+        margin: 45px;
+    
+    }
+    .pricing-update{
+        border-bottom:none;
+        padding: 15px 20px;
+    }
+}
+@media(min-width:400px){
+    .logo{
+        margin: 45px;
+        text-align: center;
+    }
+}
